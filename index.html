@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="商家增长、AI 工作流与 AIGC 创意作品集" />
+  <title>商业增长运营作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="返回首页"><span></span> GROWTH / 26</a>
+    <nav aria-label="主导航">
+      <a href="#ai-drama">AI漫剧</a><a href="#work">项目</a><a href="#ai-lab">AI能力</a><a href="#photography">摄影</a><a href="#about">关于</a>
+    </nav>
+    <a class="nav-cta" href="mailto:shijingyi0924@163.com">联系我 ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell reveal">
+      <p class="eyebrow">AI WORKFLOW · MERCHANT GROWTH · AIGC</p>
+      <h1>把 AI 能力，<br><span>变成生意结果。</span></h1>
+      <div class="hero-bottom">
+        <p>你好，我是<span data-field="name">师靖怡</span>，来自香港浸会大学传播学专业。传播学给我洞察人与内容的底子，AI让我学会搭建自己的工作流与Skill。我专注商家运营，用数据诊断问题、用 AIGC 生产素材、把运营经验沉淀为可复用的 AI 能力。</p>
+        <a class="circle-link" href="#work" aria-label="查看项目">↓</a>
+      </div>
+    </section>
+
+    <section class="drama shell" id="ai-drama">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">AI COMIC DRAMA · AIGC</p><h2>一个人，<br>一条AI漫剧产线。</h2></div>
+        <p>AI漫剧 / 03 支 · 每支约 10 秒 · 点击画面右下角按钮开启声音</p>
+      </div>
+      <div class="drama-stage" id="drama-stage"></div>
+    </section>
+
+    <section class="metrics shell reveal" aria-label="核心业绩" id="metrics"></section>
+
+    <section class="work shell" id="work">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">SELECTED CASES</p><h2>不是做过什么，<br>而是改变了什么。</h2></div>
+        <p>精选案例 / <span id="case-count">04</span></p>
+      </div>
+      <div id="case-list" class="case-list"></div>
+    </section>
+
+    <section class="ai-lab shell" id="ai-lab">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">AI CAPABILITY LAB</p><h2>不止会调用工具，<br>更会搭建能力。</h2></div><p>个人 Skill / 工作流 / 实验</p>
+      </div>
+      <div class="ai-intro reveal"><p>我把重复的运营工作拆成可复用的AI工作流，从信息收集、商家诊断到素材生产，让经验可以被沉淀、调用和持续迭代。</p><div class="ai-stack" id="ai-stack"></div></div>
+      <div class="skill-howto reveal">
+        <p><b>以下每个 Skill 都可以直接复制带走使用</b></p>
+        <ol>
+          <li><b>STEP 01</b>点击卡片上的「复制此 Skill」</li>
+          <li><b>STEP 02</b>保存为 ~/.claude/skills/名称/SKILL.md</li>
+          <li><b>STEP 03</b>在 Claude Code 里描述需求，即可自动调用</li>
+        </ol>
+      </div>
+      <div id="personal-skills"></div>
+    </section>
+
+    <section class="photography shell" id="photography">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">PHOTOGRAPHY</p><h2>镜头训练审美，<br>也训练观察。</h2></div><p>个人摄影 / 视觉表达</p>
+      </div>
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+
+    <section class="about shell reveal" id="about">
+      <p class="eyebrow">ABOUT ME</p>
+      <div class="about-grid">
+        <h2>懂平台，也懂<br><i>商家的难。</i></h2>
+        <div>
+          <p class="about-copy">我相信好的运营不是追逐漂亮的曝光数字，而是理解商家真正需要什么，并把流量变成可以持续的经营结果。</p>
+          <div class="tags" id="skill-tags"></div>
+          <div class="about-links">
+            <a class="text-link" href="mailto:shijingyi0924@163.com">聊聊合作或工作机会 ↗</a>
+            <button class="text-link" id="ai-chat-about-trigger" type="button">或问问 AI 版的我 ✦</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell"><p>© 2026 <span data-field="name">你的名字</span></p><p>BUILT FOR BUSINESS GROWTH</p></footer>
+
+  <dialog id="case-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" aria-label="关闭案例">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <dialog id="skill-dialog" aria-labelledby="skill-dialog-title">
+    <button class="dialog-close" aria-label="关闭 Skill">×</button>
+    <div id="skill-dialog-content"></div>
+  </dialog>
+  <script src="skills.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+  <script src="ai-chat.js"></script>
+</body>
+</html>

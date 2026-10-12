@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>
+<rect width="1200" height="675" fill="#ffffff"/>
+  <text x="60" y="78" font-size="40" font-weight="700" fill="#171815" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>抖音月度支付 GMV 趋势</text>
+  <text x="60" y="118" font-size="22" fill="#74776e" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>实习期 3 个月 · 单店 · 单位：万元</text>
+<line x1="110" y1="570" x2="1110" y2="570" stroke="#d8d8cf" stroke-width="1.5"/>
+    <text x="92" y="577" font-size="19" fill="#74776e" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>0</text><line x1="110" y1="470" x2="1110" y2="470" stroke="#d8d8cf" stroke-width="1.5"/>
+    <text x="92" y="477" font-size="19" fill="#74776e" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>2</text><line x1="110" y1="370" x2="1110" y2="370" stroke="#d8d8cf" stroke-width="1.5"/>
+    <text x="92" y="377" font-size="19" fill="#74776e" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>4</text><line x1="110" y1="270" x2="1110" y2="270" stroke="#d8d8cf" stroke-width="1.5"/>
+    <text x="92" y="277" font-size="19" fill="#74776e" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>5</text><line x1="110" y1="170" x2="1110" y2="170" stroke="#d8d8cf" stroke-width="1.5"/>
+    <text x="92" y="177" font-size="19" fill="#74776e" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>7</text>
+<polyline points="110,501.4285714285714 610,295.7142857142857 1110,272.85714285714283" fill="none" stroke="#171815" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="110" cy="501.4285714285714" r="9" fill="#5f8c0a" stroke="#171815" stroke-width="3"/><circle cx="610" cy="295.7142857142857" r="9" fill="#5f8c0a" stroke="#171815" stroke-width="3"/><circle cx="1110" cy="272.85714285714283" r="9" fill="#5f8c0a" stroke="#171815" stroke-width="3"/><text x="96" y="475.4285714285714" font-size="30" font-weight="700" fill="#171815" text-anchor="start" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>1.2万</text>
+    <text x="110" y="614" font-size="22" fill="#74776e" text-anchor="middle" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>M1 基建期</text><text x="610" y="269.7142857142857" font-size="30" font-weight="700" fill="#171815" text-anchor="middle" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>4.8万</text>
+    <text x="610" y="614" font-size="22" fill="#74776e" text-anchor="middle" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>M2 达人放量</text><text x="1124" y="246.85714285714283" font-size="30" font-weight="700" fill="#171815" text-anchor="end" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>5.2万</text>
+    <text x="1110" y="614" font-size="22" fill="#74776e" text-anchor="middle" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>M3 稳定期</text>
+<circle cx="72" cy="662" r="7" fill="#5f8c0a"/><text x="92" y="669" font-size="20" fill="#74776e">M2 起纯佣达人 14 位放量，GMV 环比 +300%</text><circle cx="72" cy="700" r="7" fill="#5f8c0a"/><text x="92" y="707" font-size="20" fill="#74776e">M3 上线核销 SOP，核销率 66% → 71%</text>
+<text x="60" y="752" font-size="18" fill="#74776e" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>数据来源：项目周报数据重制</text>
+</svg>
