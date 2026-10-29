@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>
+<rect width="1200" height="780" fill="#ffffff"/>
+  <text x="60" y="78" font-size="40" font-weight="700" fill="#171815">技能搭子 · 产品机制</text>
+  <text x="60" y="118" font-size="22" fill="#74776e">AI 原生产品实验：让「我教你、你也教我」变得可信、可定价</text>
+
+  <g>
+    <rect x="50" y="170" width="256" height="180" rx="14" fill="#eef4ff" stroke="#5b7db1" stroke-width="2"/>
+    <text x="78" y="212" font-size="17" font-weight="700" fill="#3d5a8a">01</text>
+    <text x="78" y="246" font-size="22" font-weight="700" fill="#171815">双边技能档案</text>
+    <text x="78" y="278" font-size="18" fill="#74776e">「我能教什么 / 想学什么」</text>
+    <text x="78" y="308" font-size="18" fill="#74776e">历史评价沉淀在档案</text>
+
+    <rect x="336" y="170" width="256" height="180" rx="14" fill="#eef4ff" stroke="#5b7db1" stroke-width="2"/>
+    <text x="364" y="212" font-size="17" font-weight="700" fill="#3d5a8a">02</text>
+    <text x="364" y="246" font-size="22" font-weight="700" fill="#171815">三档匹配</text>
+    <text x="364" y="278" font-size="18" fill="#74776e">熟练度 / 时间重合度 /</text>
+    <text x="364" y="308" font-size="18" fill="#74776e">技能互补度分层匹配</text>
+
+    <rect x="622" y="170" width="256" height="180" rx="14" fill="#eef4ff" stroke="#5b7db1" stroke-width="2"/>
+    <text x="650" y="212" font-size="17" font-weight="700" fill="#3d5a8a">03</text>
+    <text x="650" y="246" font-size="22" font-weight="700" fill="#171815">技能币时间银行</text>
+    <text x="650" y="278" font-size="18" fill="#74776e">「1 小时教学」通证化</text>
+    <text x="650" y="308" font-size="18" fill="#74776e">时间价值不对等可定价</text>
+
+    <rect x="908" y="170" width="256" height="180" rx="14" fill="#eef4ff" stroke="#5b7db1" stroke-width="2"/>
+    <text x="936" y="212" font-size="17" font-weight="700" fill="#3d5a8a">04</text>
+    <text x="936" y="246" font-size="22" font-weight="700" fill="#171815">课时契约互评</text>
+    <text x="936" y="278" font-size="18" fill="#74776e">课后双向打分</text>
+    <text x="936" y="308" font-size="18" fill="#74776e">失信有成本 · 信任有迹</text>
+
+    <g stroke="#5b7db1" stroke-width="3" fill="#5b7db1">
+      <line x1="306" y1="260" x2="324" y2="260"/><path d="M324 253 l12 7 -12 7 z" stroke="none"/>
+      <line x1="592" y1="260" x2="610" y2="260"/><path d="M610 253 l12 7 -12 7 z" stroke="none"/>
+      <line x1="878" y1="260" x2="896" y2="260"/><path d="M896 253 l12 7 -12 7 z" stroke="none"/>
+    </g>
+  </g>
+
+  <text x="60" y="428" font-size="26" font-weight="700" fill="#171815">解决两个核心难题</text>
+  <g>
+    <rect x="50" y="460" width="540" height="150" rx="14" fill="#ffffff" stroke="#171815" stroke-width="2"/>
+    <text x="78" y="504" font-size="21" font-weight="700" fill="#171815">双边信任</text>
+    <text x="78" y="536" font-size="18" fill="#74776e">档案沉淀历史评价 + 契约式课后互评，</text>
+    <text x="78" y="566" font-size="18" fill="#74776e">让陌生人之间的技能交换有据可查</text>
+
+    <rect x="610" y="460" width="540" height="150" rx="14" fill="#ffffff" stroke="#171815" stroke-width="2"/>
+    <text x="638" y="504" font-size="21" font-weight="700" fill="#171815">时间定价</text>
+    <text x="638" y="536" font-size="18" fill="#74776e">技能币时间银行把教学时长通证化，</text>
+    <text x="638" y="566" font-size="18" fill="#74776e">可跨人次流转，双方价值不对等也能成交</text>
+  </g>
+
+  <rect x="50" y="650" width="1108" height="60" rx="12" fill="#eef4ff"/>
+  <text x="78" y="687" font-size="20" fill="#171815">需求定义 → 交互设计 → 实现 → 部署上线，</text>
+  <text x="560" y="687" font-size="20" font-weight="700" fill="#3d5a8a">全程 AI 辅助（Vibe Coding）当天交付上线</text>
+
+  <text x="60" y="752" font-size="18" fill="#74776e">线上体验：k2mtz9hpn7-droid.github.io/skillmate · 纯前端单文件 · localStorage 存档</text>
+</svg>

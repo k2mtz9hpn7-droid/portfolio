@@ -1,7 +1,8 @@
 const data = window.PORTFOLIO;
 document.querySelectorAll('[data-field="name"]').forEach(el => el.textContent = data.name);
 
-document.querySelector('#metrics').innerHTML = data.metrics.map(item => `
+const metricsEl = document.querySelector('#hero-numbers');
+if (metricsEl) metricsEl.innerHTML = data.metrics.map(item => `
   <article><strong>${item.value}</strong><span>${item.label}</span><small>${item.note}</small></article>
 `).join('');
 
@@ -186,6 +187,8 @@ function openCase(index) {
     <h2 id="dialog-title">${item.title.replace('\n','<br>')}</h2>
     <p class="dialog-summary">${item.summary}</p>
     <div class="dialog-meta"><p><small>我的职责</small>${item.role}</p><p><small>项目周期</small>${item.period}</p><p><small>核心结果</small>${item.result}</p></div>
+    ${item.proof ? `<p class="dialog-proof">这个案例证明：<b>${item.proof}</b></p>` : ''}
+    ${item.link ? `<a class="dialog-link" href="${item.link}" target="_blank" rel="noopener">↗ 线上体验这个产品</a>` : ''}
     <div class="dialog-section"><small>01 / 问题</small><p>${item.challenge}</p></div>
     <div class="dialog-section"><small>02 / 策略与执行</small><ol>${item.actions.map(x => `<li>${x}</li>`).join('')}</ol></div>
     <div class="dialog-data">${item.data.map(x => `<strong>${x}</strong>`).join('')}</div>

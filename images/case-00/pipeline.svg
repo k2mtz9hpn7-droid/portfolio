@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>
+<rect width="1200" height="780" fill="#ffffff"/>
+  <text x="60" y="78" font-size="40" font-weight="700" fill="#171815">商品换背景 · 生成链路</text>
+  <text x="60" y="118" font-size="22" fill="#74776e">先保护商品，再重绘背景 —— 商品区域锁死，只生成背景</text>
+
+  <g>
+    <rect x="58" y="170" width="188" height="128" rx="14" fill="#f4f2ff" stroke="#9c83ff" stroke-width="2"/>
+    <text x="82" y="206" font-size="17" font-weight="700" fill="#6d5bd0">STEP 01</text>
+    <text x="82" y="238" font-size="21" font-weight="700" fill="#171815">商品原图</text>
+    <text x="82" y="268" font-size="17" fill="#74776e">商家上传</text>
+
+    <rect x="282" y="170" width="188" height="128" rx="14" fill="#f4f2ff" stroke="#9c83ff" stroke-width="2"/>
+    <text x="306" y="206" font-size="17" font-weight="700" fill="#6d5bd0">STEP 02</text>
+    <text x="306" y="238" font-size="21" font-weight="700" fill="#171815">Matting 抠图</text>
+    <text x="306" y="268" font-size="17" fill="#74776e">输出透明 PNG</text>
+
+    <rect x="506" y="170" width="188" height="128" rx="14" fill="#f4f2ff" stroke="#9c83ff" stroke-width="2"/>
+    <text x="530" y="206" font-size="17" font-weight="700" fill="#6d5bd0">STEP 03</text>
+    <text x="530" y="238" font-size="21" font-weight="700" fill="#171815">Keye-VL 理解</text>
+    <text x="530" y="268" font-size="17" fill="#74776e">类目 · 材质 · 光影</text>
+
+    <rect x="730" y="170" width="188" height="128" rx="14" fill="#f4f2ff" stroke="#9c83ff" stroke-width="2"/>
+    <text x="754" y="206" font-size="17" font-weight="700" fill="#6d5bd0">STEP 04</text>
+    <text x="754" y="238" font-size="21" font-weight="700" fill="#171815">背景 Prompt</text>
+    <text x="754" y="268" font-size="17" fill="#74776e">四段式结构化生成</text>
+
+    <rect x="954" y="170" width="188" height="128" rx="14" fill="#f4f2ff" stroke="#9c83ff" stroke-width="2"/>
+    <text x="978" y="206" font-size="17" font-weight="700" fill="#6d5bd0">STEP 05</text>
+    <text x="978" y="238" font-size="21" font-weight="700" fill="#171815">Kling 生图</text>
+    <text x="978" y="268" font-size="17" fill="#74776e">Inpaint 只画背景</text>
+
+    <g stroke="#9c83ff" stroke-width="3" fill="#9c83ff">
+      <line x1="246" y1="234" x2="270" y2="234"/><path d="M270 227 l12 7 -12 7 z" stroke="none"/>
+      <line x1="470" y1="234" x2="494" y2="234"/><path d="M494 227 l12 7 -12 7 z" stroke="none"/>
+      <line x1="694" y1="234" x2="718" y2="234"/><path d="M718 227 l12 7 -12 7 z" stroke="none"/>
+      <line x1="918" y1="234" x2="942" y2="234"/><path d="M942 227 l12 7 -12 7 z" stroke="none"/>
+    </g>
+  </g>
+
+  <text x="60" y="368" font-size="26" font-weight="700" fill="#171815">三种生图工作流 · 覆盖不同能力层级的商家</text>
+
+  <g>
+    <rect x="50" y="400" width="356" height="150" rx="14" fill="#ffffff" stroke="#171815" stroke-width="2"/>
+    <text x="78" y="444" font-size="22" font-weight="700" fill="#171815">智能推荐</text>
+    <text x="78" y="476" font-size="18" fill="#74776e">上传即出图 · 零门槛新手</text>
+    <text x="78" y="506" font-size="18" fill="#74776e">模型看图自动生成背景方案</text>
+    <text x="78" y="536" font-size="17" font-weight="700" fill="#6d5bd0">一键生成</text>
+
+    <rect x="426" y="400" width="356" height="150" rx="14" fill="#ffffff" stroke="#171815" stroke-width="2"/>
+    <text x="454" y="444" font-size="22" font-weight="700" fill="#171815">固定模板</text>
+    <text x="454" y="476" font-size="18" fill="#74776e">类目预制 · 极速批量上新</text>
+    <text x="454" y="506" font-size="18" fill="#74776e">家居 / 美妆 / 3C / 服饰</text>
+    <text x="454" y="536" font-size="17" font-weight="700" fill="#6d5bd0">秒级出图</text>
+
+    <rect x="802" y="400" width="356" height="150" rx="14" fill="#ffffff" stroke="#171815" stroke-width="2"/>
+    <text x="830" y="444" font-size="22" font-weight="700" fill="#171815">自定义 Agent</text>
+    <text x="830" y="476" font-size="18" fill="#74776e">口语描述 · RAG 润色</text>
+    <text x="830" y="506" font-size="18" fill="#74776e">合规拦截 · 会话记忆</text>
+    <text x="830" y="536" font-size="17" font-weight="700" fill="#6d5bd0">自由度最高</text>
+  </g>
+
+  <rect x="50" y="600" width="1108" height="96" rx="14" fill="#f4f2ff"/>
+  <text x="82" y="640" font-size="20" font-weight="700" fill="#6d5bd0">上线首月</text>
+  <text x="82" y="676" font-size="20" fill="#171815">可绎AI独立平台汇总数据</text>
+  <text x="320" y="656" font-size="26" font-weight="700" fill="#171815">UV 环比 +190%</text>
+  <text x="600" y="656" font-size="26" font-weight="700" fill="#171815">素材采纳率 +65%</text>
+  <text x="880" y="656" font-size="26" font-weight="700" fill="#171815">上新 3-7 天 → 分钟级</text>
+
+  <text x="60" y="752" font-size="18" fill="#74776e">数据来源：快手可绎AI项目复盘（2026.05-08 实习期）· 链路重绘</text>
+</svg>

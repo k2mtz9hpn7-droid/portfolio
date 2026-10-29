@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family='Manrope,"PingFang SC","Microsoft YaHei",sans-serif'>
+<rect width="1200" height="780" fill="#ffffff"/>
+  <text x="60" y="78" font-size="40" font-weight="700" fill="#171815">VL 模型评测选型 · 350 张分层测试集</text>
+  <text x="60" y="118" font-size="22" fill="#74776e">人工 5 分制 + F1 / ROUGE 自动指标 · 材质 / 光影 / 格式 / 场景 四维打分</text>
+
+  <text x="60" y="180" font-size="24" font-weight="700" fill="#171815">评测数据集 · 按难度分层</text>
+  <g>
+    <rect x="60" y="210" width="400" height="52" rx="8" fill="#e9e5ff"/>
+    <text x="80" y="243" font-size="19" fill="#171815">P0 白底简单图 · 100 张</text>
+    <rect x="60" y="278" width="400" height="52" rx="8" fill="#d9d2ff"/>
+    <text x="80" y="311" font-size="19" fill="#171815">P1 常规家居图 · 100 张</text>
+    <rect x="60" y="346" width="400" height="52" rx="8" fill="#9c83ff"/>
+    <text x="80" y="379" font-size="19" font-weight="700" fill="#ffffff">P2 玻璃 / 镜面金属高难 · 100 张</text>
+    <rect x="60" y="414" width="200" height="52" rx="8" fill="#b8b5a8"/>
+    <text x="80" y="447" font-size="19" fill="#171815">P3 异常图 · 50 张</text>
+  </g>
+  <text x="60" y="512" font-size="18" fill="#74776e">高反光 / 高透光商品是通用 VL 模型的</text>
+  <text x="60" y="540" font-size="18" fill="#74776e">重灾区：材质认错 → 光影全错 → 出图不可商用</text>
+
+  <g>
+    <text x="640" y="180" font-size="24" font-weight="700" fill="#171815">准确率对比（%）</text>
+    <line x1="620" y1="560" x2="1150" y2="560" stroke="#d8d8cf" stroke-width="1.5"/>
+
+    <rect x="640" y="302.6" width="110" height="257.4" rx="6" fill="#9c83ff"/>
+    <text x="695" y="288" font-size="26" font-weight="700" fill="#171815" text-anchor="middle">85.8</text>
+    <rect x="780" y="335.9" width="110" height="224.1" rx="6" fill="#b8b5a8"/>
+    <text x="835" y="321" font-size="26" font-weight="700" fill="#171815" text-anchor="middle">74.7</text>
+    <text x="765" y="600" font-size="20" fill="#74776e" text-anchor="middle">全样本</text>
+
+    <rect x="920" y="324.2" width="110" height="235.8" rx="6" fill="#9c83ff"/>
+    <text x="975" y="310" font-size="26" font-weight="700" fill="#171815" text-anchor="middle">78.6</text>
+    <rect x="1060" y="385.4" width="110" height="174.6" rx="6" fill="#b8b5a8"/>
+    <text x="1115" y="371" font-size="26" font-weight="700" fill="#171815" text-anchor="middle">58.2</text>
+    <text x="1045" y="600" font-size="20" fill="#74776e" text-anchor="middle">P2 高难反光</text>
+
+    <circle cx="652" cy="636" r="8" fill="#9c83ff"/><text x="672" y="643" font-size="19" fill="#74776e">Keye-VL</text>
+    <circle cx="790" cy="636" r="8" fill="#b8b5a8"/><text x="810" y="643" font-size="19" fill="#74776e">Qwen3-VL</text>
+  </g>
+
+  <rect x="50" y="668" width="1108" height="56" rx="12" fill="#f4f2ff"/>
+  <text x="78" y="703" font-size="20" font-weight="700" fill="#6d5bd0">P2 场景相差 20.4 个百分点</text>
+  <text x="430" y="703" font-size="19" fill="#171815">高反光商品是电商刚需 → 用数据选型 Keye-VL 作为商品理解底座</text>
+
+  <text x="60" y="756" font-size="18" fill="#74776e">数据来源：实习期评测数据重制 · 350 张 RGBA 透明图样本</text>
+</svg>

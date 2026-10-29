@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="商家增长、AI 工作流与 AIGC 创意作品集" />
-  <title>商业增长运营作品集</title>
+  <meta name="description" content="AI 产品 × 电商增长作品集：快手可绎AI商品换背景 0→1、AIGC 素材流水线、商家运营闭环与可复用的 AI 工作流" />
+  <title>AI产品运营作品集 · 师靖怡</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,19 +15,28 @@
   <header class="nav shell">
     <a class="brand" href="#top" aria-label="返回首页"><span></span> GROWTH / 26</a>
     <nav aria-label="主导航">
-      <a href="#ai-drama">AI漫剧</a><a href="#work">项目</a><a href="#ai-lab">AI能力</a><a href="#photography">摄影</a><a href="#about">关于</a>
+      <a href="#work">项目</a><a href="#ai-lab">AI能力</a><a href="#ai-drama">AI漫剧</a><a href="#photography">摄影</a><a href="#about">关于</a>
     </nav>
     <a class="nav-cta" href="mailto:shijingyi0924@163.com">联系我 ↗</a>
   </header>
 
   <main id="top">
     <section class="hero shell reveal">
-      <p class="eyebrow">AI WORKFLOW · MERCHANT GROWTH · AIGC</p>
-      <h1>把 AI 能力，<br><span>变成生意结果。</span></h1>
+      <p class="eyebrow">AI PRODUCT · EVAL · MERCHANT GROWTH</p>
+      <h1>把 AI 翻译成，<br><span>普通人能用的东西。</span></h1>
+      <div class="hero-numbers" aria-label="核心业绩" id="hero-numbers"></div>
       <div class="hero-bottom">
-        <p>你好，我是<span data-field="name">师靖怡</span>，来自香港浸会大学传播学专业。传播学给我洞察人与内容的底子，AI让我学会搭建自己的工作流与Skill。我专注商家运营，用数据诊断问题、用 AIGC 生产素材、把运营经验沉淀为可复用的 AI 能力。</p>
+        <p>你好，我是<span data-field="name">师靖怡</span>，香港浸会大学传播学硕士，2027届。在快手电商从 0 到 1 做过可绎 AI「商品换背景」——调研商家痛点、搭评测集选型模型、设计生图工作流并推动上线；也在收钱吧为 100 家商家搭过 AIGC 素材流水线。我专注 AI × 电商 × 商家，下面是我做过的事。</p>
         <a class="circle-link" href="#work" aria-label="查看项目">↓</a>
       </div>
+    </section>
+
+    <section class="work shell" id="work">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">SELECTED CASES</p><h2>不是做过什么，<br>而是改变了什么。</h2></div>
+        <p>精选案例 / <span id="case-count">04</span></p>
+      </div>
+      <div id="case-list" class="case-list"></div>
     </section>
 
     <section class="drama shell" id="ai-drama">
@@ -38,21 +47,15 @@
       <div class="drama-stage" id="drama-stage"></div>
     </section>
 
-    <section class="metrics shell reveal" aria-label="核心业绩" id="metrics"></section>
-
-    <section class="work shell" id="work">
-      <div class="section-head reveal">
-        <div><p class="eyebrow">SELECTED CASES</p><h2>不是做过什么，<br>而是改变了什么。</h2></div>
-        <p>精选案例 / <span id="case-count">04</span></p>
-      </div>
-      <div id="case-list" class="case-list"></div>
-    </section>
-
     <section class="ai-lab shell" id="ai-lab">
       <div class="section-head reveal">
         <div><p class="eyebrow">AI CAPABILITY LAB</p><h2>不止会调用工具，<br>更会搭建能力。</h2></div><p>个人 Skill / 工作流 / 实验</p>
       </div>
       <div class="ai-intro reveal"><p>我把重复的运营工作拆成可复用的AI工作流，从信息收集、商家诊断到素材生产，让经验可以被沉淀、调用和持续迭代。</p><div class="ai-stack" id="ai-stack"></div></div>
+      <a class="experiment-banner reveal" href="https://k2mtz9hpn7-droid.github.io/skillmate/" target="_blank" rel="noopener">
+        <div><small>AI EXPERIMENT · 线上可体验</small><b>「技能搭子」技能互换平台</b><span>双边技能档案 · 三档匹配 · 技能币时间银行 · 课时契约互评 —— 产品定义到部署上线全程 AI 辅助（Vibe Coding），当天交付</span></div>
+        <span class="experiment-go">线上体验 ↗</span>
+      </a>
       <div class="skill-howto reveal">
         <p><b>以下每个 Skill 都可以直接复制带走使用</b></p>
         <ol>
@@ -74,9 +77,9 @@
     <section class="about shell reveal" id="about">
       <p class="eyebrow">ABOUT ME</p>
       <div class="about-grid">
-        <h2>懂平台，也懂<br><i>商家的难。</i></h2>
+        <h2>懂商家、懂 AI，<br><i>更懂把两者接上。</i></h2>
         <div>
-          <p class="about-copy">我相信好的运营不是追逐漂亮的曝光数字，而是理解商家真正需要什么，并把流量变成可以持续的经营结果。</p>
+          <p class="about-copy">我相信 AI 产品的价值不在模型有多强，而在商家敢不敢用、会不会用。评测定义什么叫好，兜底保证用得稳，工作流让普通人零门槛上手——这是我在快手与收钱吧学到、并做出来过的事。</p>
           <div class="tags" id="skill-tags"></div>
           <div class="about-links">
             <a class="text-link" href="mailto:shijingyi0924@163.com">聊聊合作或工作机会 ↗</a>
